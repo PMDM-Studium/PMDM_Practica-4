@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Inventor.InventorFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="363dp"
+            android:layout_height="253dp"
+            android:contentDescription="@string/imagenCena"
+            android:src="@drawable/ornitoptero_maquina_voladora_leonardo_da_vinci_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.079"
+            app:srcCompat="@drawable/ornitoptero_maquina_voladora_leonardo_da_vinci_1" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="365dp"
+            android:layout_height="298dp"
+
+            android:text="@string/Inventor"
+            app:autoSizeTextType="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView5"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:layout_constraintVertical_bias="0.108" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
